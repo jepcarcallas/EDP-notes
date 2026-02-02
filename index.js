@@ -37,8 +37,65 @@ for (let i = 0; i < x.length; i++) {
     }
 }*/
 
-let x = []
+/*let x = []
 x[0] = 100
 console.log
 x[7] = 544
-console.log(x)
+console.log(x)*/
+
+//PRINT THE UNIQUE ELEMENTS FROM TWO ARRAYS
+
+/*let y = [0, 0 , 1, 2, 1, 3, 3 ,5, 5]
+let x = [1, 1, 1, 2, 2, 3 ,3, 4, 4, 9]
+
+for (let i = 0; i < x.length; i++){ 
+    if (counts[x[i]]){
+        counts[x[i]] ++
+    }
+    else {
+        counts[x[i]] = 1
+    }
+}    
+
+for (let i = 0; i < y.length; i++) {
+    if (counts[y[i]]){
+        counts[y[i]] ++
+    }
+    else {
+        counts[y[i]] = 1
+    }
+    
+}*/
+
+/*let y = [0, 0 , 1, 2, 1, 3, 3 ,5, 5]
+let x = [1, 1, 1, 2, 2, 3 ,3, 4, 4, 9]
+
+console.log("Unique in x:")
+for (let i = 0; i < x.length; i++) {
+    if (x.indexOf(x[i]) === x.lastIndexOf(x[i])) {
+        console.log(x[i])
+    }
+}
+
+console.log("Unique in y:")
+for (let i = 0; i < y.length; i++) {
+    if (y.indexOf(y[i]) === y.lastIndexOf(y[i])) {
+        console.log(y[i])
+    }
+}*/
+
+/*let y = [0, 0 , 1, 2, 1, 3, 3 ,5, 5]
+let x = [1, 1, 1, 2, 2, 3 ,3, 4, 4, 9]
+for (let i = 0; i < x.length; i++) {
+    let counter = 0
+    for (let j = 0; j < x.length; j++) {
+        if (x[i] === x[j]) {
+            counter+=1
+        }
+    }
+    if (counter === 1) {
+        console.log(x[i])
+    }
+}*/
+
+//^^^ REPEAT FOR Y ARRAY ^^^
